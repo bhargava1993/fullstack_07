@@ -1,1 +1,1 @@
-console.log("first javascript file");
+console.log("first javascript file created");
