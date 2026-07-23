@@ -1,0 +1,74 @@
+HTML - Hypertext markup language
+
+Hypertext - Text with links to other pages or setions
+Markup - special tags that describe the structre of content.
+language - a set of rules that browsers understand
+
+HTML - HTML5
+css - css3
+
+--------------------------
+1.heading tags - 
+
+h1 - h6 -> Block level element
+
+2.paragraph: <p> </p>
+
+3.self closing tags:
+
+break : <br>
+hr: <hr>
+<i>
+<b> --> bold
+<strong>
+
+containers:
+---------
+<div> </div> - large blocks
+<span> </span> - small blocks
+
+Anchor:  <a>
+--------
+<a></a>
+
+href
+target: _self, _blank
+
+Images:
+--------
+<img> - self closing
+
+src - source path of image
+width
+height
+alt -> alternative text
+
+
+LIST:
+--------
+<ol> </ol> - order list
+<ul> </ul>- unorder list
+<li> </li>
+
+attributs: 
+type= "A", type= "a", type= "i",
+start = "5"
+reversed
+
+unorder list:
+--------------
+type= "circle", type= "square", type= "disc",
+
+<ol>
+<li> Apple</li>
+<li> Banana</li>
+</ol>
+-------------------------------
+task:
+
+family.html
+about.html
+carrier.html
+
+
+
