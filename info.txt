@@ -7,6 +7,7 @@ language - a set of rules that browsers understand
 HTML - HTML5
 css - css3
 
+Data display Tags
 --------------------------
 1.heading tags - 
 
@@ -23,9 +24,9 @@ hr: <hr>
 <strong>
 
 containers:
----------
-<div> </div> - large blocks
-<span> </span> - small blocks
+-----------
+<div> </div> - large blocks - Block level element- divide and rule
+<span> </span> - small blocks - inline element
 
 Anchor:  <a>
 --------
@@ -50,6 +51,11 @@ LIST:
 <ul> </ul>- unorder list
 <li> </li>
 
+dl - Describe list
+<dl></dl> 
+<dt></dt> - data term
+<dd></dd> - description
+
 attributs: 
 type= "A", type= "a", type= "i",
 start = "5"
@@ -69,6 +75,28 @@ task:
 family.html
 about.html
 carrier.html
+
+-------------------------------------------------
+
+data insert tags:
+----------------------
+
+Input tags: --> self closing tags
+---------------
+1.type
+2.placeholder
+3.min/max
+4.minlength/maxlength
+5.required
+6.disabled
+7.redonly
+
+
+<input />
+
+narrator:
+--------------
+windows + ctrl + enter
 
 
 
