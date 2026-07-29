@@ -98,5 +98,40 @@ narrator:
 --------------
 windows + ctrl + enter
 
+Table:
+-------
+<table> -  to create table
+<tr> -  to create row
+<th> - to create headings
+<td> - to add data
+
+attributes:
+-----------
+width
+height
+
+rowspan - to merge rows
+colspan - merge columns
+
+cellspacing - it wil add space around the cell
+cellpadding - inside cell it will add some space
+
+align = "cneter" - table will display middle of the page
+------------------------------------------
+
+html/html5:
+----------
 
 
+<thead>
+<tbody>
+<tfoot>
+
+
+[{id:1,name:"koushik","course":"java"},
+{id:1,name:"koushik","course":"java"},
+{id:1,name:"koushik","course":"java"},]
+{id:1,name:"koushik","course":"java"},
+{id:1,name:"koushik","course":"java"},
+{id:1,name:"koushik","course":"java"},
+{id:1,name:"koushik","course":"java"},
