@@ -135,3 +135,30 @@ html/html5:
 {id:1,name:"koushik","course":"java"},
 {id:1,name:"koushik","course":"java"},
 {id:1,name:"koushik","course":"java"},
+
+-------------------------------------------------
+[] - angular bracket
+{} - curly bracket
+() - paranthasis
+
+
+css: cascading stylesheet  (rule based language)
+----
+selector{
+    define rules
+}
+
+tagName{
+    color: "red"
+}
+
+.className{
+    define rule
+}
+
+
+3 ways :
+--------
+inline css
+internal css
+external css
