@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* attribute selector */
+
+        input[type="password"] {
+            background-color: blue;
+        }
+
+        input[value="Bhargava"] {
+            background-color: chartreuse;
+        }
+
+        input[type="text"] {
+            background-color: yellow;
+        }
+
+        p[sudheer="content"] {
+            color: red
+        }
+
+        /* pseudo classes */
+        button:hover {
+            background-color: red;
+            transform: scale(3);
+            }
+
+        input:hover {
+            background-color: cornflowerblue;
+        }
+
+        input:focus {
+            background-color: deeppink;
+            outline: 4px solid red;
+        }
+
+        /* p:hover {
+            color: yellow
+        } */
+        p:hover,
+        p:focus {
+            color: blueviolet
+        }
+
+        input:active,
+        button:active {
+            background-color: forestgreen;
+            color: white;
+            transform: scale(1.2)
+        }
+
+        button:focus{
+            border: 3px solid red;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <input type="text">
+    <br>
+    <br>
+    <input type="password">
+    <br>
+    <br>
+    <input value="Bhargava">
+    <br>
+    <br>
+    <p sudheer="content" tabindex="0">Lorem ipsum dolor sit.</p>
+
+    <button>Submit</button>
+</body>
+
+</html>
