@@ -196,3 +196,16 @@ universal selector:
 
 }
 ------------------------------------
+
+BOX MODEL:
+----------
+
+content
+padding - top right bottem left  - top left/right bottem - top/bottem left/right  - 
+border  - top right bottem left  - top left/right bottem - top/bottem left/right  -
+margin  - top right bottem left  - top left/right bottem -  top/bottem left/right -
+
+padding-top 
+padding-bottem
+padding-left
+padding -right
