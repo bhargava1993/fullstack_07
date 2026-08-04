@@ -209,3 +209,18 @@ padding-top
 padding-bottem
 padding-left
 padding -right
+
+
+Display:
+--------
+display: block  --> div, p, h1, section
+
+display: inline ---> input, span, a, strong  --> height/width don't apply
+
+display: inline-block --> img, button
+
+display: none
+
+visibility: hidden
+
+display: flex
