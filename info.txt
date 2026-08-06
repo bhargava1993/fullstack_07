@@ -224,3 +224,23 @@ display: none
 visibility: hidden
 
 display: flex
+
+-------------------------------------
+
+position:
+---------
+static ------> no movement
+Relative -----> I can move, but my place still stays
+absolute -----> child who depends on parent
+Fixed  -------> god photo on wall
+sticky  ------>  smart guy
+
+
+
+
+<body>
+
+    <div style="position:absolute">
+    
+    </div>
+<body>
