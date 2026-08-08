@@ -244,3 +244,32 @@ sticky  ------>  smart guy
     
     </div>
 <body>
+
+----------------------------
+
+flex:
+------
+display : flex
+
+
+flex-direction: row    --> left --> right
+flex-direction: column ---> top --> bottom
+justify-content ---> Horizontal alignment
+align-items --->vertical alignment
+gap
+----------------------
+
+1.px  -(pixel)
+2. %  - percentage
+3. em - element measure
+
+ ex:  parent font size =20px
+    child font size = 2em = 20 * 2 = 40px
+
+4. rem - (root element measure)
+
+
+5. vw - (viewport width)
+6. vh - (viewport height)
+7. vmin - viewport min
+8. vmax - viewport max
