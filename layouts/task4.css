@@ -1,0 +1,81 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+.layout {
+    border: 3px solid black;
+    text-align: justify;
+    background-color:rgb(224, 215, 204)
+}
+.display{
+            display:flex;
+        }
+
+
+.header {
+    border: 2px solid black;
+    background-color:rgb(162, 35, 35);
+    text-transform: uppercase;  
+    align-items: center;
+    justify-content: center;
+    ;
+}
+
+.Nav{
+    border: 2px solid black;
+    background-color: burlywood;
+}
+
+.Nav-ul{
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    height: 300px;
+}
+.Nav-ul:hover, 
+.Nav-ul :active{
+    color: maroon;
+    letter-spacing: 1.5px;
+}
+
+.sidebar {
+    border: 2px solid black;
+  background-color: rgb(231, 186, 153);
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    font-size: larger;
+    flex:1;
+    display: flex;
+    padding: 15px;
+    height: 300px;
+
+}
+
+.content {
+    border: 2px solid black;
+    background-color: rgb(210, 177, 94);
+    padding: 10px;
+    text-transform: inherit;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    flex: 3;
+    display: flex;
+    padding: 15px;
+    
+    height: 300px;
+
+}
+
+
+.footer {
+    border: 2px solid black;
+    margin: 10px;
+    background-color:darkolivegreen;
+    align-items: center;
+    font-size: larger;
+    height: 50px;
+    justify-content: center;
+}
