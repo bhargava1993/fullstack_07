@@ -1,0 +1,30 @@
+p{
+    color: blue;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.bhargavaRule {
+    color: red;
+    font-size: 40px !important;
+}
+
+.backGroudColorPurple {
+    background-color: purple;
+}
+
+.bgcYellow{
+    background-color: yellow;
+    font-size: 100px;
+}
+
+.bgcGreen{
+    background-color: lightgreen !important;
+}
+
+#sudheerId{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic; 
+    font-size: 60px;
+    color: tomato;
+}

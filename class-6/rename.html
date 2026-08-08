@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Descendant selector */
+        /* div p {
+            color: blue
+        }
+
+        div span p {
+            color: brown;
+        } */
+
+        /* child selector */
+
+        div > div > p {
+            color:chartreuse
+        }
+
+        span > h1{
+            color: Red;
+        }
+
+        span > p{
+            color: blue;
+        }
+     
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <p>box1</p>
+        <span>span1</span>
+        <div>
+            <p id="idchartreuse"> inside Paragraph</p>
+        </div>
+        <span>
+            <h1>heading 1</h1>
+        </span>
+        <h1>main heading1</h1>
+        <span>
+            <p>inside span paragraph</p>
+        </span>
+    </div>
+
+    <span>
+        <p>inside span paragraph</p>
+    </span>
+    <p>ouste paragraph</p>
+
+</body>
+
+</html>

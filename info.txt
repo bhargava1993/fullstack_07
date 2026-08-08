@@ -98,5 +98,178 @@ narrator:
 --------------
 windows + ctrl + enter
 
+Table:
+-------
+<table> -  to create table
+<tr> -  to create row
+<th> - to create headings
+<td> - to add data
+
+attributes:
+-----------
+width
+height
+
+rowspan - to merge rows
+colspan - merge columns
+
+cellspacing - it wil add space around the cell
+cellpadding - inside cell it will add some space
+
+align = "cneter" - table will display middle of the page
+------------------------------------------
+
+html/html5:
+----------
 
 
+<thead>
+<tbody>
+<tfoot>
+
+
+[{id:1,name:"koushik","course":"java"},
+{id:1,name:"koushik","course":"java"},
+{id:1,name:"koushik","course":"java"},]
+{id:1,name:"koushik","course":"java"},
+{id:1,name:"koushik","course":"java"},
+{id:1,name:"koushik","course":"java"},
+{id:1,name:"koushik","course":"java"},
+
+-------------------------------------------------
+[] - angular bracket
+{} - curly bracket
+() - paranthasis
+
+
+css: cascading stylesheet  (rule based language)
+----
+selector{
+    define rules
+}
+
+tagName{
+    color: "red"
+}
+
+.className{
+    define rule
+}
+
+
+3 ways :
+--------
+inline css
+internal css
+external css
+
+
+priorty of selectors:
+----------------------
+low - high:
+
+1. element selector
+2. class selector
+3. attribute selector
+4. id selector
+5. inline styes
+
+RGB: (Red, Green, Blue)
+-----
+0 - 255
+rgb(255,0,0) - Red
+rgb(0,255,0) - green
+rgb(0,0,255) - Blue
+
+HEX colors: #RRGGBB
+----------
+
+#FF0000
+#00FF00
+#0000FF
+#FFFFFF
+#000000
+
+universal selector:
+-------------------
+*{
+
+}
+------------------------------------
+
+BOX MODEL:
+----------
+
+content
+padding - top right bottem left  - top left/right bottem - top/bottem left/right  - 
+border  - top right bottem left  - top left/right bottem - top/bottem left/right  -
+margin  - top right bottem left  - top left/right bottem -  top/bottem left/right -
+
+padding-top 
+padding-bottem
+padding-left
+padding -right
+
+
+Display:
+--------
+display: block  --> div, p, h1, section
+
+display: inline ---> input, span, a, strong  --> height/width don't apply
+
+display: inline-block --> img, button
+
+display: none
+
+visibility: hidden
+
+display: flex
+
+-------------------------------------
+
+position:
+---------
+static ------> no movement
+Relative -----> I can move, but my place still stays
+absolute -----> child who depends on parent
+Fixed  -------> god photo on wall
+sticky  ------>  smart guy
+
+
+
+
+<body>
+
+    <div style="position:absolute">
+    
+    </div>
+<body>
+
+----------------------------
+
+flex:
+------
+display : flex
+
+
+flex-direction: row    --> left --> right
+flex-direction: column ---> top --> bottom
+justify-content ---> Horizontal alignment
+align-items --->vertical alignment
+gap
+----------------------
+
+1.px  -(pixel)
+2. %  - percentage
+3. em - element measure
+
+ ex:  parent font size =20px
+    child font size = 2em = 20 * 2 = 40px
+
+4. rem - (root element measure)
+
+
+5. vw - (viewport width)
+6. vh - (viewport height)
+7. vmin - viewport min
+8. vmax - viewport max
